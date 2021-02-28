@@ -54,7 +54,7 @@ __Com a base de dados selecionada clique na aba importar.__
 ![importando](https://github.com/ArturHamannRonconi/gerenciador_de_eventos/blob/master/assets/medias/importando.png)  
 
 __Clique em escolher arquivo e vá até a pasta gerenciador_de_eventos que foi baixada do github,  
-dentro da pasta procure outra pasta chamada `core` clique nela e selecione o arquivo ´gerencidor_de_eventos.sql´,  
+dentro da pasta procure outra pasta chamada `core` clique nela e selecione o arquivo `gerencidor_de_eventos.sql`,  
 após abri-lo apenas clique em executar no canto inferior direito.  
 Pode demorar um pouco mas você saberá que conseguiu assim que ver uma tela parecida com essa.__  
 
