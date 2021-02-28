@@ -26,39 +26,39 @@ Assim que você terminar de instalar em sua máquina, procure a pasta na qual vo
 apague todo o conteúdo dela,  
 depois execute xampp como administrador.__  
 
-![executando o xampp](assets/media/executandoOXampp.png)    
+![executando o xampp](https://github.com/ArturHamannRonconi/gerenciador_de_eventos/blob/master/assets/medias/executandoOXampp.png)    
 
 __Após abrir ele você vai precisar iniciar 2 módulos,  
 o Apache(servidor) e o MySQL(banco de dados), achar o nome deles no aplicativo do xampp e clicar em start em cada um.__  
 
-![iniciando o Apache e o MySQL](assets/media/iniciandoOApacheEOMySQL.png)  
+![iniciando o Apache e o MySQL](https://github.com/ArturHamannRonconi/gerenciador_de_eventos/blob/master/assets/medias/iniciandoOApacheEOMySQL.png)  
 
 __Depois de iniciar os dois você vai precisar entrar no banco de dados,  
 para fazer isso apenas clique nesse [link](http://localhost/phpmyadmin),  
 caso o link não funcione tente digitar localhost/phpmyadmin ou 127.0.0.1/phpmyadmin na URL do seu navegador.  
-depois de entrar no phpmyadmin será necessário criar um banco de dados com esse exato nome ´gerenciador_de_eventos´.__  
+depois de entrar no phpmyadmin será necessário criar um banco de dados com esse exato nome `gerenciador_de_eventos`.__  
 
-![criando o banco de dados](assets/media/criandoBancoDeDados.png)  
+![criando o banco de dados](https://github.com/ArturHamannRonconi/gerenciador_de_eventos/blob/master/assets/medias/criandoBancoDeDados.png)  
 
-![nomeando o banco de dados](assets/media/nomeandoBancoDeDados.png)  
+![nomeando o banco de dados](https://github.com/ArturHamannRonconi/gerenciador_de_eventos/blob/master/assets/medias/nomeandoBancoDeDados.png)  
 
 __Agora que você criou um banco de dados, precisamos dos arquivos aqui do github, baixe esse repositório dentro da pasta htdocs  
-e caso a pasta que foi baixada com todos os arquivos tenha outro nome, nomeie para ´gerenciador_de_eventos´.  
+e caso a pasta que foi baixada com todos os arquivos tenha outro nome, nomeie para `gerenciador_de_eventos`.  
 Agora é necessário que você importe as tabelas para o banco de dados,  
-para fazer em primeiro lugar selecione a base de dados ´gerenciador_de_eventos´ que você criou.__  
+para fazer em primeiro lugar selecione a base de dados `gerenciador_de_eventos` que você criou.__  
 
-![selecionando base de dados](assets/media/selecionandoBaseDeDados.png)  
+![selecionando base de dados](https://github.com/ArturHamannRonconi/gerenciador_de_eventos/blob/master/assets/medias/selecionandoBaseDeDados.png)  
 
 __Com a base de dados selecionada clique na aba importar.__  
 
-![importando](assets/media/importando.png)  
+![importando](https://github.com/ArturHamannRonconi/gerenciador_de_eventos/blob/master/assets/medias/importando.png)  
 
 __Clique em escolher arquivo e vá até a pasta gerenciador_de_eventos que foi baixada do github,  
-dentro da pasta procure outra pasta chamada ´core´ clique nela e selecione o arquivo ´gerencidor_de_eventos.sql´,  
+dentro da pasta procure outra pasta chamada `core` clique nela e selecione o arquivo ´gerencidor_de_eventos.sql´,  
 após abri-lo apenas clique em executar no canto inferior direito.  
 Pode demorar um pouco mas você saberá que conseguiu assim que ver uma tela parecida com essa.__  
 
-![tela](assets/media/tela.png)  
+![tela](https://github.com/ArturHamannRonconi/gerenciador_de_eventos/blob/master/assets/medias/tela.png)  
 
 __Espero ter conseguido te ajudar na instalação caso tenha surgido alguma dúvida não exite em perguntar,  
 crie um issue aqui mesmo no github dentro desse projeto que darei o meu máximo para te ajudar assim que for possível.__
@@ -66,7 +66,7 @@ crie um issue aqui mesmo no github dentro desse projeto que darei o meu máximo 
 ## Como Usar
 __A parte mais difícil você já passou, agora para conseguir usar o programa é simples,  
 basta abrir uma aba do seu navegador e acessa esse [link](http://localhost/) digitar localhost na URL,  
-agora que você acessou sua máquina clique na pasta que foi nomeada como ´gerenciador_de_eventos´,  
+agora que você acessou sua máquina clique na pasta que foi nomeada como `gerenciador_de_eventos`,  
 agora esta tudo pronto para ser usar, apenas siga as perguntas que são mostradas em cima e responda clicando em uma opção.__  
 
 ## tecnologias
