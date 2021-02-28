@@ -30,9 +30,9 @@ class ConsultarController extends Controller {
     $participantes = null;
     $sala = null;
     $warnings = [
-      'NotFoundParticipantes' => "Não existem participantes relacionados.",
-      'doesNotExist' => "Não existem registros criados dessa categoria.",
-      'doNotExist' => "O resgistro não existe."
+      'NotFoundParticipantes' => "Não existem participantes cadastrados nesta sala.",
+      'doesNotExist' => "Não existem salas cadastradas.",
+      'doNotExist' => "A sala não existe."
     ];
 
     if($idSala) {
@@ -96,9 +96,8 @@ class ConsultarController extends Controller {
     $todosOsParticipantes = null;
     $participante = null;
     $warnings = [
-      'NotFoundParticipantes' => "Não existem participantes relacionados.",
-      'doesNotExist' => "Não existem registros criados dessa categoria.",
-      'doNotExist' => "O resgistro não existe."
+      'doesNotExist' => "Não existem participantes cadastrados.",
+      'doNotExist' => "O Participante não existe."
     ];
 
     if($idParticipante) {
@@ -167,9 +166,9 @@ class ConsultarController extends Controller {
     $participantes = null;
     $local = null;
     $warnings = [
-      'NotFoundParticipantes' => "Não existem participantes relacionados.",
-      'doesNotExist' => "Não existem registros criados dessa categoria.",
-      'doNotExist' => "O resgistro não existe."
+      'NotFoundParticipantes' => "Não existem participantes cadastrados neste local ainda.",
+      'doesNotExist' => "Não existem locais cadastrados.",
+      'doNotExist' => "O local não existe."
     ];
 
     if($idLocal) {
