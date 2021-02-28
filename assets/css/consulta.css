@@ -1,0 +1,95 @@
+#section-consulta {
+  display:flex;
+  justify-content:center;
+}
+#section-consulta .container {
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  min-height:calc(100vh - 210px);
+  height:auto;
+}
+#section-consulta .form {
+  display:flex;
+  justify-content:center;
+  padding:25px 0px;
+}
+#section-consulta .input {
+  width:500px;
+  height:50px;
+  font-size:18px;
+  padding:10px;
+  border-radius:7px;
+  outline:0;
+  margin-bottom:0px;
+  border:none;
+}
+#section-consulta .border {
+  display:flex;
+  justify-content:center;
+  border:1px solid #CCC;
+  width:551px;
+  border-radius:7px;
+  height:52px;
+}
+#section-consulta .btn-info {
+  width:50px;
+  height:50px;
+  border-top-left-radius:0px;
+  border-bottom-left-radius:0px;
+}
+#section-consulta .btn-info:hover {
+  color:#FFF;
+  background-color:var(--info);
+  cursor:pointer;
+}
+#section-consulta .table {
+  border:1px solid #CCC;
+  width:100%;
+  border-radius:10px;
+  margin-bottom:25px;
+  margin-top:25px;
+}
+#section-consulta .table .thead {
+  border:1px solid #CCC;
+  border-top:none;
+  padding:20px 0px;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+}
+#section-consulta .table .th {
+  font-size:30px;
+  min-width:33%;
+  text-align: center;
+}
+#section-consulta .table .tbody {
+  display:flex;
+  flex-direction:column;
+}
+#section-consulta .table .trh,
+#section-consulta .table .tr {
+  width:100%;
+  display:flex;
+  justify-content:space-around;
+}
+#section-consulta .table .td {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size:20px;
+  height:50px;
+  width:33%;
+}
+#section-consulta .table .tr:nth-child(2n+1) {
+  background-color:#EEE;
+}
+#section-consulta .warning {
+  display:flex;
+  justify-content:center;
+  margin-top:25px;
+  margin-bottom:25px;
+}
+#section-consulta .table .tr:last-child {
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
+}

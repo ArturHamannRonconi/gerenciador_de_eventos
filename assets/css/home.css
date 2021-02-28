@@ -1,0 +1,22 @@
+#section-home {
+  display:flex;
+  justify-content:center;
+}
+#section-home .container {
+  height:calc(100vh - 210px);
+}
+#section-home .alternativas {
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  height:inherit;
+}
+#section-home .consultar,
+#section-home .cadastrar {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:50%;
+  height:inherit;
+}
+

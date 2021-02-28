@@ -1,0 +1,131 @@
+*, :root {
+  --primary:#007BFF;
+  --success:#28A745;
+  --danger:#DC3545;
+  --warning:#FFC107;
+  --info:#17A2B8;
+  --template:#10161B;
+  
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* padrões */
+.container {
+  width:100%;
+  max-width:1536px;
+}
+.btn-primary, .btn-success,
+.btn-danger, .btn-warning, .btn-info {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:250px;
+  height:100px;
+  font-size:26px;
+  color:#FFF;
+  text-decoration:none;
+  border-radius:7px;
+}
+
+.btn-danger {
+  background-color:var(--danger);
+  border:4px solid var(--danger);
+}
+.btn-danger:hover {
+  color:var(--danger);
+  background-color:#FFF;
+  transition:all 0.3s linear;
+  cursor:pointer;
+}
+.btn-primary {
+  background-color:var(--primary);
+  border:4px solid var(--primary);
+}
+.btn-primary:hover {
+  color:var(--primary);
+  background-color:#FFF;
+  transition:all 0.3s linear;
+  cursor:pointer;
+}
+.btn-success {
+  background-color:var(--success);
+  border:4px solid var(--success);
+}
+.btn-success:hover {
+  color:var(--success);
+  background-color:#FFF;
+  transition:all 0.3s linear;
+  cursor:pointer;
+}
+.btn-info {
+  background-color:var(--info);
+  border:4px solid var(--info);
+}
+.btn-info:hover {
+  color:var(--info);
+  background-color:#FFF;
+  transition:all 0.3s linear;
+  cursor:pointer;
+}
+.warning {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:492px;
+  height:70px;
+  border:4px solid #FFEEBA;
+  border-radius:5px;
+  background-color:#FFF3CD;
+  color:#856404;
+  font-size:1rem;
+  text-align: center;
+  padding:5px;
+}
+
+
+/* HEADER */
+#header {
+  display:flex;
+  justify-content:center;
+  background-color:var(--template);
+  margin-bottom:25px;
+}
+#header .container {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:80px;
+  color:#FFF;
+}
+#header h1 {
+  text-align:center;
+  font-size:25px;
+}
+
+/* FOOTER */
+#footer {
+  display:flex;
+  justify-content:center;
+  background-color:var(--template);
+  margin-top:25px;
+}
+#footer .container {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:80px;
+}
+#footer .menu img {
+  width:50px;
+  margin:0px 10px;
+}
+#footer .menu a {
+  color:transparent;
+}
+#forward {
+  transform:rotateY(180deg);
+}
+

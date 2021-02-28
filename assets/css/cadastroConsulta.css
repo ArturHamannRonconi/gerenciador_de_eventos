@@ -1,0 +1,22 @@
+#section-cadastro-consulta {
+  display:flex;
+  justify-content:center;
+}
+#section-cadastro-consulta .container {
+  height:calc(100vh - 210px);
+}
+#section-cadastro-consulta .alternativas {
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  height:inherit;
+}
+#section-cadastro-consulta .sala-de-evento,
+#section-cadastro-consulta .participante,
+#section-cadastro-consulta .local-de-intervalo {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:50%;
+  height:inherit;
+}

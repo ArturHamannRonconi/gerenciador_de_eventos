@@ -1,0 +1,4 @@
+ReWriteEngine On
+ReWriteCond %{REQUEST_FILENAME} !-f
+ReWriteCond %{REQUEST_FILENAME} !-d
+ReWriteRule ^(.*)$ /gerenciador_de_eventos/index.php?request=$1
